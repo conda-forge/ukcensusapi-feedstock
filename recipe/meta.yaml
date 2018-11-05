@@ -1,5 +1,5 @@
 {% set name = "ukcensusapi" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d0d52afbf779b7f1044769a6a944a1b424deb0c858d25131e9afa900a89cd6b2
+  sha256: d5a274fbe882f3feba9e2f8ca65866b94bf7dfbc7fc2e9cc40cf3e770ce6613d
 
 build:
   noarch: python
