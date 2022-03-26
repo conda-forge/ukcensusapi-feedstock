@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python>=3.6
     - pip
   run:
-    - python
+    - python>=3.6
     - numpy
     - pandas
     - requests
@@ -35,7 +35,7 @@ about:
   home: https://github.com/virgesmith/UKCensusAPI
   license: MIT
   license_family: MIT
-  license_file: LICENCE
+  license_file: LICENCE.md
   summary: UK Census Data queries and downloads from python or R
   dev_url: https://github.com/virgesmith/UKCensusAPI
 
